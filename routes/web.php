@@ -11,6 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+ * =============================================================================
+ *          Note : On peut passer des donnees comme 3eme argument par e.g :
+ * =============================================================================
+Route::view('/', 'Pages.home', [
+  'firstName'     =>  'Achraf',
+  'familyName'    =>  'Bellaali'
+])->name('home');
+//Dans l'exemple ci-dessus, on appelle les donnees dans la vue par {{$firstName}} et {{$familyName}}
+ * =============================================================================
+*/
+
+
+Route::view('/', 'Pages.home')->name('home');
+
+Route::view('/404', 'Pages.404');
