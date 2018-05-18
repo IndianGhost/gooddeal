@@ -25,8 +25,11 @@ Route::view('/', 'Pages.home', [
 
 
 Route::view('/', 'Pages.home')->name('home');
+Route::view('/shop', 'Pages.shop')->name('shop');
 Route::view('/blog', 'Pages.blog')->name('blog');
 Route::view('/contact', 'Pages.contact')->name('contact');
-Route::view('/404', 'Pages.404')->name('404');
 
-Route::get('/blog/post/{id}', 'PostController@readPost');
+Route::get('/blog/post/{id}', [
+    'as'    =>  'readPost',
+    'uses'  =>  'PostController@readPost'
+])->where('id', '[1-9]+');

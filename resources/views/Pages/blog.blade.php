@@ -45,7 +45,7 @@ These fields are components of container section :
                                         <h4 class="blog-title"><a href="#">Blog Post Dummy Title</a></h4>
                                         <p>Aliqua. Ut enim ad minim veniam, quis nos trud exer the citation ullamco laboris a nisi veniam, quis nos trud exer the citation ullamco laboris a nisi.</p>
                                         <div class="blog-foot fix">
-                                            <a href="/blog/post/1" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
+                                            <a href="{{route('readPost', 1)}}" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             <div class="blog-meta float-right">
                                                 <a href="#"><i class="zmdi zmdi-account"></i> Mollik</a>
                                                 <a href="#"><i class="zmdi zmdi-comments"></i> 02 Comments</a>
@@ -64,7 +64,7 @@ These fields are components of container section :
                                         <h4 class="blog-title"><a href="#">Blog Post Dummy Title</a></h4>
                                         <p>Aliqua. Ut enim ad minim veniam, quis nos trud exer the citation ullamco laboris a nisi veniam, quis nos trud exer the citation ullamco laboris a nisi.</p>
                                         <div class="blog-foot fix">
-                                            <a href="/blog/post/2" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
+                                            <a href="{{route('readPost', 2)}}" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             <div class="blog-meta float-right">
                                                 <a href="#"><i class="zmdi zmdi-account"></i> Mollik</a>
                                                 <a href="#"><i class="zmdi zmdi-comments"></i> 02 Comments</a>
@@ -83,7 +83,7 @@ These fields are components of container section :
                                         <h4 class="blog-title"><a href="#">Blog Post Dummy Title</a></h4>
                                         <p>Aliqua. Ut enim ad minim veniam, quis nos trud exer the citation ullamco laboris a nisi veniam, quis nos trud exer the citation ullamco laboris a nisi.</p>
                                         <div class="blog-foot fix">
-                                            <a href="/blog/post/3" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
+                                            <a href="{{route('readPost', 3)}}" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             <div class="blog-meta float-right">
                                                 <a href="#"><i class="zmdi zmdi-account"></i> Mollik</a>
                                                 <a href="#"><i class="zmdi zmdi-comments"></i> 02 Comments</a>
@@ -102,7 +102,7 @@ These fields are components of container section :
                                         <h4 class="blog-title"><a href="#">Blog Post Dummy Title</a></h4>
                                         <p>Aliqua. Ut enim ad minim veniam, quis nos trud exer the citation ullamco laboris a nisi veniam, quis nos trud exer the citation ullamco laboris a nisi.</p>
                                         <div class="blog-foot fix">
-                                            <a href="/blog/post/4" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
+                                            <a href="{{route('readPost', 4)}}" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             <div class="blog-meta float-right">
                                                 <a href="#"><i class="zmdi zmdi-account"></i> Mollik</a>
                                                 <a href="#"><i class="zmdi zmdi-comments"></i> 02 Comments</a>
@@ -121,7 +121,7 @@ These fields are components of container section :
                                         <h4 class="blog-title"><a href="#">Blog Post Dummy Title</a></h4>
                                         <p>Aliqua. Ut enim ad minim veniam, quis nos trud exer the citation ullamco laboris a nisi veniam, quis nos trud exer the citation ullamco laboris a nisi.</p>
                                         <div class="blog-foot fix">
-                                            <a href="/blog/post/5" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
+                                            <a href="{{route('readPost', 5)}}" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             <div class="blog-meta float-right">
                                                 <a href="#"><i class="zmdi zmdi-account"></i> Mollik</a>
                                                 <a href="#"><i class="zmdi zmdi-comments"></i> 02 Comments</a>
@@ -140,7 +140,7 @@ These fields are components of container section :
                                         <h4 class="blog-title"><a href="#">Blog Post Dummy Title</a></h4>
                                         <p>Aliqua. Ut enim ad minim veniam, quis nos trud exer the citation ullamco laboris a nisi veniam, quis nos trud exer the citation ullamco laboris a nisi.</p>
                                         <div class="blog-foot fix">
-                                            <a href="/blog/post/6" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
+                                            <a href="{{route('readPost', 6)}}" class="read-more">read more<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             <div class="blog-meta float-right">
                                                 <a href="#"><i class="zmdi zmdi-account"></i> Mollik</a>
                                                 <a href="#"><i class="zmdi zmdi-comments"></i> 02 Comments</a>
