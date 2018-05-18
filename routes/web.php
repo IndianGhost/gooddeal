@@ -25,5 +25,8 @@ Route::view('/', 'Pages.home', [
 
 
 Route::view('/', 'Pages.home')->name('home');
+Route::view('/blog', 'Pages.blog')->name('blog');
+Route::view('/contact', 'Pages.contact')->name('contact');
+Route::view('/404', 'Pages.404')->name('404');
 
-Route::view('/404', 'Pages.404');
+Route::get('/blog/post/{id}', 'PostController@readPost');

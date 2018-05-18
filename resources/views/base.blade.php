@@ -163,7 +163,7 @@
                             <nav>
                                 <ul>
                                     <li class="active">
-                                        <a href="index.html">home</a>
+                                        <a href="{{route('home')}}">home</a>
                                     </li>
                                     <li><a href="#">element</a>
                                         <ul class="sub-menu">
@@ -268,15 +268,10 @@
                                             <li><a href="404.html">404</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog default</a></li>
-                                            <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                            <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
-                                        </ul>
+                                    <li>
+                                        <a href="{{route('blog')}}">blog</a>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="{{route('contact')}}">contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -287,7 +282,7 @@
                             <nav>
                                 <ul>
                                     <li class="active">
-                                        <a href="index.html">home</a>
+                                        <a href="{{route('home')}}">home</a>
                                     </li>
                                     <li><a href="#">element</a>
                                         <ul>
@@ -390,15 +385,10 @@
                                             <li><a href="404.html">404</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog default</a></li>
-                                            <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                            <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
-                                        </ul>
+                                    <li>
+                                        <a href="{{route('blog')}}">blog</a>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="{{route('contact')}}">contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -521,6 +511,7 @@
 <!-- Bootstrap JS
 ============================================ -->
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
+<!-- Body main wrapper end -->
 <!-- Plugins JS
 ============================================ -->
 <script src="{{asset('js/plugins.js')}}"></script>

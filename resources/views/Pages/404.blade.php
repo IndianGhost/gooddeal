@@ -64,5 +64,5 @@ These fields are components of container section :
 @section('javascript')
     <!-- Particles Active JS
 ============================================ -->
-    <script src="js/app.js"></script>
+    <script src="{{asset('js/app.js')}}"></script>
 @endsection
