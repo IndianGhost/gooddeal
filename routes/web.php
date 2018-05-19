@@ -33,3 +33,33 @@ Route::get('/blog/post/{id}', [
     'as'    =>  'readPost',
     'uses'  =>  'PostController@readPost'
 ])->where('id', '[1-9]+');
+
+Route::get('/admin/dashboard/', [
+    'as'    =>  'adminDashboard',
+    'uses'  =>  'adminController@dashboard'
+]);
+
+Route::get('/admin/charts/', [
+    'as'    =>  'adminCharts',
+    'uses'  =>  'adminController@charts'
+]);
+
+Route::get('/admin/', [
+    'as'    =>  'adminLogin',
+    'uses'  =>  'adminController@login'
+]);
+
+Route::get('/admin/register', [
+    'as'    =>  'adminRegister',
+    'uses'  =>  'adminController@register'
+]);
+
+Route::get('/admin/forget-password', [
+    'as'    =>  'adminForgetPassword',
+    'uses'  =>  'adminController@forgetPassword'
+]);
+
+Route::get('/admin/logout', [
+    'as'    =>  'adminLogout',
+    'uses'  =>  'adminController@logout'
+]);
