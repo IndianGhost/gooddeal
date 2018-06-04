@@ -29,19 +29,19 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{route('adminDashboard')}}">
                     <i class="fa fa-fw fa-dashboard"></i>
                     <span class="nav-link-text">Dashboard</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="{{route('adminCharts')}}">
                     <i class="fa fa-fw fa-area-chart"></i>
                     <span class="nav-link-text">Charts</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{route('adminTables')}}">
                     <i class="fa fa-fw fa-table"></i>
                     <span class="nav-link-text">Tables</span>
                 </a>
@@ -53,10 +53,10 @@
                 </a>
                 <ul class="sidenav-second-level collapse" id="collapseComponents">
                     <li>
-                        <a href="navbar.html">Navbar</a>
+                        <a href="#">Navbar</a>
                     </li>
                     <li>
-                        <a href="cards.html">Cards</a>
+                        <a href="#">Cards</a>
                     </li>
                 </ul>
             </li>
@@ -67,16 +67,16 @@
                 </a>
                 <ul class="sidenav-second-level collapse" id="collapseExamplePages">
                     <li>
-                        <a href="login.html">Login Page</a>
+                        <a href="#">Login Page</a>
                     </li>
                     <li>
-                        <a href="register.html">Registration Page</a>
+                        <a href="#">Registration Page</a>
                     </li>
                     <li>
-                        <a href="forgot-password.html">Forgot Password Page</a>
+                        <a href="#">Forgot Password Page</a>
                     </li>
                     <li>
-                        <a href="blank.html">Blank Page</a>
+                        <a href="#">Blank Page</a>
                     </li>
                 </ul>
             </li>
@@ -112,9 +112,9 @@
                 </ul>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{route('home')}}">
                     <i class="fa fa-fw fa-link"></i>
-                    <span class="nav-link-text">Link</span>
+                    <span class="nav-link-text">Go to the website !</span>
                 </a>
             </li>
         </ul>

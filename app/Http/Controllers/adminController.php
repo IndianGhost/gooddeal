@@ -21,6 +21,12 @@ class adminController extends Controller
         return view('admin.charts');
     }
 
+    public function tables()
+    {
+        //code
+        return view('admin.tables');
+    }
+
     /*
      *   Authentication pages
      */

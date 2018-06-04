@@ -44,6 +44,11 @@ Route::get('/admin/charts/', [
     'uses'  =>  'adminController@charts'
 ]);
 
+Route::get('/admin/tables/', [
+    'as'    =>  'adminTables',
+    'uses'  =>  'adminController@tables'
+]);
+
 Route::get('/admin/', [
     'as'    =>  'adminLogin',
     'uses'  =>  'adminController@login'
